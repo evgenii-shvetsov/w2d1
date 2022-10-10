@@ -79,6 +79,11 @@ class Array
         new_arr
     end
 
-
+    def my_transpose
+        length = self.first.length
+        (0...length).map do |i|
+            self.map {|arr| arr[i]}
+        end
+    end
   
 end
