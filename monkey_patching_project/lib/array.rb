@@ -48,7 +48,7 @@ class Array
         hash
     end
 
-    def my_count(val)
+    def my_count(val) #Done
         hash = counts
         if hash.has_key?(val)
             hash[val]
